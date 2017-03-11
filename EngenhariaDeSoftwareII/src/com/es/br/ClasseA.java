@@ -11,6 +11,10 @@ public class ClasseA {
 		A1 = a1;
 		A2 = a2;
 	}
+	
+	public int soma(int a1, float a2) {
+		return (int) (a1 + a2);
+	}
 
 	private int getA1() {
 		return A1;
