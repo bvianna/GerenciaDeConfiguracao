@@ -4,6 +4,7 @@ public class ClasseA {
 
 	private int A1;
 	private float A2;
+	private String A3;
 
 	public ClasseA(int a1, float a2) {
 		super();
@@ -26,5 +27,14 @@ public class ClasseA {
 	private void setA2(float a2) {
 		A2 = a2;
 	}
+
+	private String getA3() {
+		return A3;
+	}
+
+	private void setA3(String a3) {
+		A3 = a3;
+	}
+	
 		
 }
