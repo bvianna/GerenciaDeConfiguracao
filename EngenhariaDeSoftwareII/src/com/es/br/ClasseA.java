@@ -6,10 +6,11 @@ public class ClasseA {
 	private float A2;
 	private String A3;
 
-	public ClasseA(int a1, float a2) {
+	public ClasseA(int a1, float a2, String a3) {
 		super();
 		A1 = a1;
 		A2 = a2;
+		A3 = a3;
 	}
 	
 	public int soma(int a1, float a2) {
