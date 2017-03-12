@@ -5,6 +5,7 @@ public class ClasseA {
 	private int A1;
 	private float A2;
 	private String A3;
+	private String ARamo4;
 
 	public ClasseA(int a1, float a2, String a3) {
 		super();
@@ -15,6 +16,15 @@ public class ClasseA {
 	
 	public int soma(int a1, float a2) {
 		return (int) (a1 + a2);
+	}
+	
+
+	private String getARamo4() {
+		return ARamo4;
+	}
+
+	private void setARamo4(String aRamo4) {
+		ARamo4 = aRamo4;
 	}
 
 	private int getA1() {
