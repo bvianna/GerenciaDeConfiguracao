@@ -18,7 +18,6 @@ public class ClasseA {
 		return (int) (a1 + a2);
 	}
 	
-
 	private String getAprinc4() {
 		return Aprinc4;
 	}
