@@ -7,11 +7,12 @@ public class ClasseA {
 	private String A3;
 	private String Aprinc4;
 
-	public ClasseA(int a1, float a2, String a3) {
+	public ClasseA(int a1, float a2, String a3, String Aprinc4) {
 		super();
 		A1 = a1;
 		A2 = a2;
 		A3 = a3;
+		this.Aprinc4 = Aprinc4;
 	}
 	
 	public int soma(int a1, float a2) {
